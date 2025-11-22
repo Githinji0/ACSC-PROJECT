@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 public class App extends Application {
     @Override
     public void start(Stage stage) {
-        Label label = new Label("Hello JavaFX!");
+        Label label = new Label("Hello JavaFX! window");
         Scene scene = new Scene(label, 300, 200);
 
         stage.setTitle("My First Window");
