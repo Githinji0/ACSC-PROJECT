@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="srms.Controller" spacing="12" style="-fx-padding: 16;">
+	<children>
+		<Label text="SRMS" style="-fx-font-size: 24; -fx-font-weight: bold;" />
+		<Label fx:id="statusLabel" text="Initializing..." />
+	</children>
+</VBox>
